@@ -9,6 +9,11 @@ page_data = page.read().decode("utf-8")
 page_info = page.info()
 page_code = page.getcode()
 
+
+def test():
+    """haha."""
+    pass
+
 print(page_code)
 print('----------------------------------------------------------------------')
 print(page_info)
